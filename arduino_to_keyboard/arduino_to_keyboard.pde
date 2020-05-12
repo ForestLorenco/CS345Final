@@ -1,6 +1,6 @@
-import processing.serial.*;
+import processing.serial.*; // Used for Serial communication 
 import java.awt.AWTException;
-import java.awt.Robot;
+import java.awt.Robot; // All rest for controlling computer keyboard
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import javax.swing.KeyStroke;
@@ -36,9 +36,8 @@ float new_x2 = 500;
 float new_y2 = 500;
 void setup()
 {
-  System.out.println("Hi");
   size(1000,500);
-  printArray(Serial.list());
+  //printArray(Serial.list());
   MyPort = new Serial(this, "/dev/cu.usbmodem1401", 9600);// My Arduino is on COM3. Enter the COM on which your Arduino is on.
   MyPort.bufferUntil('\n');
 }

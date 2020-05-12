@@ -95,21 +95,5 @@ void loop() {
    Serial.print(ypos);
    Serial.println(":");
   
-//  Serial.print(abuttonState);
-//  Serial.print(" b: ");
-//  Serial.print(bbuttonState);
-//  Serial.print(" x: ");
-//  Serial.print(xbuttonState);
-//  Serial.print(" y: ");
-//  Serial.print(ybuttonState);
-//  
-//  ypos = analogRead(Y_pin);
-//  xpos = analogRead(X_pin);
-//  Serial.print(" X: ");
-//  Serial.print(analogRead(X_pin));
-//  Serial.print(" Y: ");
-//  Serial.print(analogRead(Y_pin));
-//  Serial.print(" Z: ");
-//  Serial.println(digitalRead(SW_pin));
   
 }
